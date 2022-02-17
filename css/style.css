@@ -28,11 +28,13 @@
 body {
   font-family: "Raleway", sans-serif;
 }
+.spacer{
+    margin-top: 20px;
+}
 
 html {
   scroll-behavior: smooth;
 }
-
 .about-header h2 {
   font-size: 35px;
   font-weight: 600;
@@ -45,6 +47,7 @@ html {
 }
 
 #footer {
+    margin-top: 80px;
   background-color: #495469;
 }
 
@@ -92,4 +95,10 @@ html {
   border-radius: 360px;
   background-color: #fff;
   padding: 9px 10px;
+}
+.epaath_image{
+    width: 100px;
+}
+.epaath-bg{
+    color: #cccccc;
 }
