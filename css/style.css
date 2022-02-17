@@ -1,0 +1,95 @@
+/*Variables for html*/
+/*Responsive*/
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap");
+@media screen and (max-width: 480px) {
+
+
+  .about-header h2, .portfolio-content h1, .services-content h2, .blog-content h1 {
+    font-size: 31px !important;
+  }
+
+  .about-header p, .services-content p, .blog-content p, .portfolio-content p {
+    font-size: 17px !important;
+  }
+
+  .footer-content h1, .footer-content-contact h1 {
+    font-size: 25px !important;
+  }
+
+  .footer-content p {
+    font-size: 14px !important;
+  }
+
+}
+/*CSS starts*/
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.about-header h2 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #67696c;
+}
+
+.about-header p {
+  font-size: 20px;
+  color: #67696c;
+}
+
+#footer {
+  background-color: #495469;
+}
+
+.footer-content {
+  color: #fff;
+}
+
+.footer-content h1 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.footer-content p {
+  font-size: 16px;
+}
+
+.hrfooter {
+  width: 40px;
+  margin-top: 25px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.fontsawesome i {
+  font-size: 24px;
+  padding: 20px 8px;
+  color: #be9e21;
+  transition: 0.9s;
+}
+
+.fontsawesome .fa-github:hover {
+  transform: rotate(360deg);
+  color: #395694;
+}
+.fontsawesome .fa-gitlab:hover {
+  transform: rotate(360deg);
+  color: #395694;
+}
+.rights {
+  color: #fff;
+  font-size: 13px;
+}
+
+.fontsawesome .fa {
+  border-radius: 360px;
+  background-color: #fff;
+  padding: 9px 10px;
+}
