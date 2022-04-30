@@ -27,11 +27,11 @@
 /*CSS starts*/
 body {
   font-family: "Raleway", sans-serif;
+  background: #e9eff0;
 }
 .spacer{
     margin-top: 20px;
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -103,4 +103,10 @@ html {
 }
 .epaath-bg{
     color: #cccccc;
+}
+.slider-content{
+  /* background-color: #282634; */
+}
+.screen {
+  /* color: white; */
 }
